@@ -1,0 +1,582 @@
+﻿* {
+	font-family: 'cwTeXFangSong', 'Caudex';
+	text-decoration: none;
+	list-style-type: none;
+}
+h3 {
+	text-align: center;
+}
+ul,li{
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+}
+a {
+	color: #1C1C1C;
+	font-size: 100%;
+}
+a:hover ,a:focus{
+	color: rgba(28,28,28,0.7);
+	text-decoration: none;
+}
+
+.banner{
+	background: url(images/howtobuy-banner.jpg) center;
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: transparent;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	background-color: transparent;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background-color: transparent;
+}
+.navbar-nav .open .dropdown-menu > li > a{
+	color: #FCFAF2;
+}
+.navbar .navbar-collapse, .navbar-default .navbar-form{
+	height: 350px;
+	text-align: right;
+	overflow-y:hidden;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: transparent;
+}
+.navbar-right{
+	margin-top: 20px;
+}
+.navbar-right .dropdown-menu{
+	left: 0;
+}
+.navbar{
+	width: 100%;
+	height: 10%;
+	margin: 0;
+	padding: 0;
+	z-index: 499;
+	border-bottom: 0px;
+	font-size: 22px;
+}
+.navbar-header{
+	height: 80px;
+}
+.navbar-brand-min img{
+	margin: 15px 0 0 25px;
+}
+
+
+.navbar .navbar-nav > li > a{
+	color: #FCFAF2;
+}
+.navbar-nav li{
+	top: 0;
+	margin-right: 0;
+	text-align: left;
+}
+.navbar-nav .open .dropdown-menu{
+	width: 110px;
+	font-size: 18px;
+	background-color: rgba(169,169,169,0.5);
+	border: none;
+}
+.dropdown-menu{
+	min-width: 0;
+	margin-left: 8px;
+}
+.navbar-toggle{
+	margin: 25px 20px 0 0;
+	background-color: #F2F2F2;
+}
+.sr-only{
+	background-color: #DDDDDD;
+}
+.icon-bar{
+	background-color: #787878;
+}
+
+/*--------------------NAV 線條效果-------------------------*/
+.navbar-nav li a {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.navbar-nav li a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.navbar-nav li a:hover:after {
+	width: 100%;
+	background: #C0A264;
+}
+
+/*--------------area border----------*/
+
+.banner{
+	background: url(images/howtobuy-banner.jpg) center;
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+}
+
+.table-bordered{
+	width: 100%;
+　	overflow: hidden;	
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	border: 2px solid #C0A264;
+	border-radius: 5px;
+}
+
+/*---------area22-----------------*/
+
+
+.area22 ul{
+	width: 100%;
+	height: 50px;
+	margin-top: 60px;
+}
+.area22 ul li{
+	width: 122px;
+	height: 50px;
+}
+.area22 ul .scrollicon{
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+}
+.area22 ul .endicon{
+	width: 50px;
+	height: 50px;
+}
+
+
+/*---------area22_1-----------------*/
+.area22_1{
+	height: 50px;
+}
+
+
+/*--------------area33-------------*/
+.area33 {
+	margin-bottom: 5px;
+	font-size: 16px;
+	height: 150px;
+	text-align: center;
+}
+
+.total-div{
+	margin-top: 20px;
+}
+
+.area33 p {
+	display: inline-block;
+	margin-top: 0;
+}
+
+/*---------------aside-1------------------*/
+.aside-1{
+	margin-top: 50px;
+}
+.classmenu{
+	margin-right: 50px;
+	/*position: fixed;*/
+	/*border: 3px groove #C0A264;*/
+	height: 1250px;
+}
+.menu{
+	font-size: 18px;
+	text-align: center;
+}
+
+.menu1{
+	position: absolute;
+	top: 60px;
+}
+.menu2{
+	position: absolute;
+	top: 250px;
+}
+.menu3{
+	position: absolute;
+	top: 400px;
+	padding: 0;
+
+}
+.menu4{
+	position: absolute;
+	top: 975px;
+	padding: 0;
+
+}
+.menu5{
+	position: absolute;
+	top: 1365px;
+}
+.menu6{
+	position: absolute;
+	top: 1550px;
+}
+/*---------menu-min----------*/
+.menu-min{
+	text-align: center;
+	white-space:nowrap;
+
+}
+
+
+
+
+/*---------------aside-2------------------*/
+.aside-2{
+	margin-top: 50px;
+}
+.classmenu-2 {
+	margin-right: 20px;
+	/*position: fixed;*/
+	/*border: 3px groove #C0A264;*/
+	height: 1750px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+.line{
+	width:10px;
+	height:1690px;
+	margin: 0;
+
+	background: #C0A264;
+	color:#fff;
+	text-align: center;
+	border-radius: 40px/40px;
+
+}
+.number{
+	width:40px;
+	height:40px;
+	margin-left:-15px;
+	position: absolute;
+	background: #C0A264;
+	color:#fff;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 50%;
+}
+.number1{
+    top: 55px;
+}
+.number2{
+	top: 240px;
+}
+.number3{
+	top: 390px;
+}
+.number4{
+	top: 965px;
+}
+.number5{
+	top: 1355px;
+}
+.number6{
+	top: 1540px;
+}
+
+
+/*-----------area44---------*/
+.area44{
+	padding: 10px 20px;
+	margin: 40px 0 118px 0;
+	background-color: #F2F2F2;
+	font-size: 16px;
+	height: 30%;
+}
+.area44 .text-top {
+	margin-top: 15px;
+}
+.area44 .text-left{
+	margin-left: 10%;
+}
+
+
+/*-----------area55---------*/
+.area55{
+	padding: 10px 20px;
+	margin: 0px 0 85px 0;
+	background-color: #F2F2F2;
+	font-size: 16px;
+	height: 30%;
+}
+.area55 .text-top {
+	margin-top: 15px;
+}
+.area55 .text-left{
+	margin-left: 10%;
+}
+
+/*-----------area66---------*/
+.area66{
+	padding: 10px 20px;
+	margin: 0px 0 60px 0;
+	background-color: #F2F2F2;
+	font-size: 16px;
+	text-align: justify;
+	height: 30%;
+}
+.area66 .text-top {
+	margin-top: 15px;
+}
+.area66 .text-left{
+	margin-left: 10%;
+}
+
+/*-----------area77---------*/
+.area77{
+	padding: 10px 20px;
+	margin: 0px 0 60px 0;
+	background-color: #F2F2F2;
+	font-size: 16px;
+	text-align: justify;
+	height: 30%;
+}
+.area77 .text-top {
+	margin-top: 15px;
+}
+.area77 .text-left{
+	margin-left: 10%;
+}
+
+/*-----------area88---------*/
+.area88{
+	padding: 10px 20px;
+	margin: 0px 0 120px 0;
+	background-color: #F2F2F2;
+	font-size: 16px;
+	height: 30%;
+}
+.area88 .text-top {
+	margin-top: 15px;
+}
+.area88 .text-left{
+	margin-left: 10%;
+}
+
+/*-----------area99---------*/
+.area99{
+	padding: 10px 20px;
+	margin: 0px 0 150px 0;
+	background-color: #F2F2F2;
+	font-size: 16px;
+	height: 30%;
+}
+.area99 .text-top {
+	margin-top: 15px;
+}
+.area99 .text-left{
+	margin-left: 10%;
+}
+
+/*-----------area100---------*/
+.area100{
+	padding: 10px 20px;
+	margin: 0px;
+	/*filter: alpha(opacity=0.5) ;*/
+	font-size: 16px;
+	text-align: justify;
+	height: 30%;
+
+
+}
+.area100::after {
+	content: "";
+	background: url(images/returnpurchase.jpg) no-repeat 0 0;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	max-width: 100%;
+	height: auto;
+	box-sizing: cover;
+	top: ;
+
+}
+.area100 .text-top {
+	margin: 40px 0 50px 0;
+
+	font-size: 18px;
+	text-align: center;
+}
+.area100 .text-left{
+	margin-left: 10%;
+}
+
+.inside{
+	margin-bottom: 50px;
+}
+
+
+
+/*-----------area1111---------*/
+.area1111{
+	padding: 50px 20px 20px 20px;
+	margin: 0px 0 50px 0;
+	/*background-color: #F2F2F2;*/
+	font-size: 18px;
+	height: 30%;
+}
+.area1111.text-top {
+	margin-top: 15px;
+	padding-left:5px;
+
+
+
+}
+.area1111.text-left{
+	margin-left: 10%;
+}
+
+
+
+
+
+/*-----------footer------------*/
+footer{
+	background:url(images/footer_bg.jpg) ;
+}
+footer a{
+	color: #FCFAF2;
+}
+footer a:hover ,a:focus{
+	color: rgba(252,250,242,0.5);
+	text-decoration: none;
+}
+.foot-word{
+	text-align: center;
+}
+.size1{
+	font-size: 22px;
+	padding-top: 20px;
+}
+.asd{
+	text-align: left;
+}
+.size2{
+	font-size: 18px;
+}
+.iconconect{
+	text-align: center;
+	padding-left: 40px;
+}
+.footban{
+	padding-top: 40px;
+}
+
+
+
+/*--------登入彈出式窗--------------*/
+.login-logo{
+	text-align: center;
+	margin: 30px auto 60px auto; 
+}
+.form-group {
+	text-align: center;
+	margin: 10px 0 0 37px;
+}
+#name{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconpeople.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 22px;
+}
+#email{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconemail.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 22px;
+}
+#password{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconpassword.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 22px;
+}
+#passwordcheck{
+	width: 300px;
+	font-size: 24px; 	
+  	background: #E6E6E6 url('images/iconpasswordcheck.png') no-repeat 3px 3px;
+  	padding: 3px 3px 3px 22px;
+}
+
+.login .btn-warning{
+	width: 300px;
+	margin: 10px 0 0 37px;
+	font-size: 24px;
+}
+.forget{
+	text-align: center;
+}
+.forget .btn-link{
+	font-size: 18px;
+	text-decoration: none;
+}
+.form-group .btn-link:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.signin {
+	text-align: center;
+	margin-top: 50px;
+}
+.signin .btn-info{
+	width: 100px;
+}
+
+/*--------------註冊彈出視窗---------------*/
+.letter-register{
+	text-align: center;
+	margin-bottom: 40px;
+	color: #C0A264;
+	font-size: 32px;
+}
+/*---------------查詢密碼頁---------------*/
+.check-word{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color: #C0A264;
+	font-size: 32px;
+}
+#check-password{
+	width: 300px;
+	font-size: 18px; 	
+  	padding: 3px 3px 3px 22px;
+}
+.click-div{
+	margin-top: 50px;
+	text-align: center;
+}
+.click-ul{
+	padding-left: 0;
+}
+.click-a{
+	margin-right: 10px;
+}
+.click-b{
+	margin-left: 10px;
+}
+
